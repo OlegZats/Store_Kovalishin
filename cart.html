@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кошик</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Кошик</h1>
+  <img src="img/logo.png" style="border-radius: 24px; margin-top: 10px;" width="300" alt="logo">
+  <div class="news-ticker">
+    <div class="news">
+        <span>Новинка: Новий кавовий набір - тепер доступний за спеціальною ціною!</span>
+        <span>Розпродаж: Знижки до 50% на кухонне приладдя!</span>
+        <span>Оновлення: Додано нові моделі меблів у наш каталог!</span>
+    </div>
+  </div>
+  <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="header__menu" id="headerMenu">
+    <ul class="header__ul">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="products.html">Каталог</a></li>
+      <li><a href="history.html">Наша історія</a></li>
+      <li><a href="contact.html">Контакти</a></li>
+      <li><a href="cart.html">Кошик</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Кошик</h2>
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="img/items/item-1.webp" alt="Товар 1">
+        <h3>Cковорідка</h3>
+        <p>Анти-прегарна сковорідка.</p>
+        <p class="price">1600 грн</p>
+        <button  class="button">Придбати</button>
+      </div>
+      <div class="product-item">
+        <img src="img/items/item-2.webp" alt="Кавоварка Bosch">
+        <h3>Кавоварка Bosch</h3>
+        <p>Нова кавоварка Bosch з можливістю приготування кави та капучіно в домашніх умовах. Ідеально підходить для любителів справжнього італійського смаку.</p>
+        <p class="price">1500 грн</p>
+        <button  class="button">Придбати</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Home store</p>
+</footer>
+</body>
+<script src="/js/burger.js"></script>
+</html>

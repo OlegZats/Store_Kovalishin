@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .map {
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    @media (max-width: 600px) {
+      iframe {
+        height: 300px;
+      }
+    }
+    .contact-info ul {
+      list-style: none;
+      padding: 0;
+    }
+
+  </style>
+</head>
+<body>
+<header>
+  <h1>Контакти</h1>
+  <img src="img/logo.png" style="border-radius: 24px; margin-top: 10px;" width="300" alt="logo">
+  <div class="news-ticker">
+    <div class="news">
+        <span>Новинка: Новий кавовий набір - тепер доступний за спеціальною ціною!</span>
+        <span>Розпродаж: Знижки до 50% на кухонне приладдя!</span>
+        <span>Оновлення: Додано нові моделі меблів у наш каталог!</span>
+    </div>
+  </div>
+  <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav class="header__menu" id="headerMenu">
+    <ul class="header__ul">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="products.html">Каталог</a></li>
+      <li><a href="history.html">Наша історія</a></li>
+      <li><a href="contact.html">Контакти</a></li>
+      <li><a href="cart.html">Кошик</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Контакти</h2>
+    <p>Зв'яжіться з нами за адресою: вулиця Прикладна, 1, м.Вінниця, Україна.</p>
+    <p>Телефон: +380 00 000 0000</p>
+    <p>Email: info@homestore.ua</p>
+    <div class="map">
+      <h2>Ми на карті</h2>
+      <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10245.632666106946!2d28.451900669347116!3d49.233083546173065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c651acc3f6a5b%3A0x7c5b62a9052a320e!2z0J3QvtCy0YvRjyDQv9C-0LvRjNC90YvQuSDQstGD0YjQuNC5!5e0!3m2!1suk!2sua!4v1626949614982!5m2!1suk!2sua"
+              allowfullscreen=""
+              loading="lazy">
+      </iframe>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Home store</p>
+</footer>
+</body>
+<script src="/js/burger.js"></script>
+</html>
